@@ -1,0 +1,78 @@
+/*#######################################
+Template Name: Minimo || HTML Template;
+Author: Md. Sobuj Sarkar;
+Verson:1.0.0;
+Created: 30 January 2021;
+File Description: Main Css file of the template;
+########################################*/
+
+/*#######################################
+01. General
+########################################*/
+body{margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+    font-size: 14px;
+    font-height:24px;
+    color: #626262;
+    box-sizing: border-box
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 30px;
+margin: 0;
+}
+p{font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+  margin: 0; }
+a{color:#626262;
+text-decoration: none;
+font-size: 14px;}
+/*########################################
+          HEADER STYLE START HERE
+#########################################*/
+.container{width:90%;
+margin: 0 auto;
+overflow: hidden;}
+.logo{width: 30%;
+float: left;}
+.menu{width: 70%;
+float: right;}
+.logo a{
+font-family: 'Inconsolata', monospace;
+font-weight: 400;
+font-size: 30px;
+text-transform: capitalize;
+color: #000;
+letter-spacing: 5px;}
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	}
+nav ul li{
+	float: left;
+	}
+nav ul li a{ text-transform: uppercase;
+padding: 0 60px; }
+nav ul li a:hover{color:#000;}
+nav ul li:last-child a{padding-right:0;}
+/*########################################
+          BANNER STYLE START HERE
+#########################################*/
+.BANNER{background-image: url(../images/banner.jpg);
+min-height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+
